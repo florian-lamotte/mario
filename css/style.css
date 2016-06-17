@@ -1,0 +1,93 @@
+#container {	
+	height: 256px;
+	width: 240px;
+	position: relative;
+	margin: auto;
+	margin-top: 200px;
+  	overflow:hidden;
+}
+
+#fond {
+	background: url(../images/basique.png) no-repeat;
+  	background-position: 0;
+	height: 256px;
+	width: 240px;
+	position: absolute;
+}
+
+#score {
+	position:absolute;
+	margin-top:20px;
+	margin-left:20px;
+	width:50px;
+	height:30px;
+	color:white;
+	font-size: 20px;
+}
+
+.mario {
+  	position: absolute;
+  	background:url(../images/mario.png) 198px 139px;
+	width: 20px;
+	height: 35px;
+	top: 181px;
+	left: 0;
+}
+
+.bloc1 {
+    position:absolute;
+    width:20px;
+   	height:20px;
+    background:url(../images/bloc_jaune.jpg) no-repeat;
+    background-size:contain;
+    top: 140px;
+    left: 85px;
+}
+
+.bloc2 {
+    position:absolute;
+    width:20px;
+   	height:20px;
+    background:url(../images/bloc_jaune.jpg) no-repeat;
+    background-size:contain;
+    top: 140px;
+    left: 165px;
+}
+
+.bloc3 {
+    position:absolute;
+    width:20px;
+   	height:20px;
+    background:url(../images/bloc_jaune.jpg) no-repeat;
+    background-size:contain;
+    top: 140px;
+    left: 200px;
+}
+
+.piece {
+    position:absolute;
+    width:20px;
+    height:20px;
+    background:url(../images/piece.png) no-repeat;
+    background-size:contain;
+    top: 195px;
+    left: 50px;
+}
+
+.piece2 {
+    position:absolute;
+    width:20px;
+    height:20px;
+    background:url(../images/piece.png) no-repeat;
+    background-size:contain;
+    top: 195px;
+    left: 100px;
+}
+
+.limite {
+    position:absolute;
+    width:20px;
+    height:100px;
+    top: 140px;
+    left: 500px;
+}
